@@ -200,7 +200,7 @@ form .name,form .pass{
   transition: 0.25px;
 }
 form .name:focus,form .pass:focus{
-width: 270px;
+width: 250px;
 border-color: whitesmoke;
 }
 form .button{
@@ -267,16 +267,17 @@ label{
   form{
     position: relative;
     left: 100px;
+    top: -50px;
   }
 }
 @media (max-width:500px) {
   form{
     position: relative;
     display: block;
-    top:330px;
+    top:300px;
     left: 90px;
-    height: 80vh;
-    width: 70vw;
+    height: 85vh;
+    width: 80vw;
   }
   label{
     position: relative;
@@ -290,11 +291,5 @@ label{
     margin: 5px;
   }
 }
-@media (max-width:415px) {
-    form{
-    height:120vw;
-      position:relative;
-      top:260px;
-    }
-}
+
 
